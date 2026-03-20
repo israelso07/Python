@@ -1,8 +1,10 @@
-valor = float(input("Digite o valor da compra: R$ "))
+idade = int(input("Digite a idade: "))
 
-if valor > 500:
-    print("Desconto de 20% aplicado")
-elif valor > 200:
-    print("Desconto de 10% aplicado")
+if idade <= 12:
+    print("Criança")
+elif idade <= 17:
+    print("Adolescente")
+elif idade <= 59:
+    print("Adulto")
 else:
-    print("Sem desconto")
+    print("Idoso")
